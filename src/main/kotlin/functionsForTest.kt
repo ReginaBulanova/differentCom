@@ -19,6 +19,6 @@ fun comissionBasedOnType(cardType: String, sumToTransact: Double): Double {
 fun transaction(sumCard: Double, sumToTransact: Double, comission: Double): Double {
     print("Баланс карты стал: ")
     print(sumCard - sumToTransact - comission)
-    print(" операция прошла")
+    print(" операция прошла ")
     return comission
 }
