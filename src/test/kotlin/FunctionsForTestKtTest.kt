@@ -18,7 +18,7 @@ class FunctionsForTestKtTest {
 
     @Test
     fun transaction() {
-        val expected = 112.5
+        val expected = 140.0
         val result = ru.netology.transaction(80.0, 1500.0, 112.5)
 
         assertEquals(expected.toInt(), result.toInt())
